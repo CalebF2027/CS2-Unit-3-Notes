@@ -10,7 +10,7 @@ public class Main {
 
       // All objects can be created using this pattern
       // ClassName objectName = new ClassName();
-      BuildABear kitty = new BuildABear("cat");
+      BuildABear kitty = new BuildABear();
 
    }
 }
