@@ -56,4 +56,12 @@ public class BuildABear {
         return price;
     }
 
-}
+    // Write a toString() method so that we can print an object's STATE
+    // including this method changes what happens when you print an object
+    // otherwise, doing SYstem.out.println(object) just shows a memory location
+    public String toString() {
+        String state = "BuildABear{" + type + "," + name + "," + fillLevel + "," + price + "}";
+        return state;
+    }
+
+} // end class
