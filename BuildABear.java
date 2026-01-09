@@ -43,15 +43,12 @@ public class BuildABear {
     public String getType() {
         return type;
     }
-
     public String getName() {
         return name;
     }
-
     public int fillLevel() {
         return fillLevel;
     }
-
     public double getPrice() {
         return price;
     }
@@ -63,5 +60,19 @@ public class BuildABear {
         String state = "BuildABear{" + type + "," + name + "," + fillLevel + "," + price + "}";
         return state;
     }
+
+    // MUTATORS ("setters") are void, but accept an argument to change
+    // the value of an object's instance variable to something new
+
+    // only need setters for variables you want the user to change
+    public void setName(String newName) {
+        // assign the object's name to the new value
+        this.name = newName;
+    }
+    public void setFillLevel(int newFL) {
+        this.fillLevel = newFL;
+    }
+
+
 
 } // end class
