@@ -33,12 +33,20 @@ public class Main {
 
       // SETTERS are VOID (means no return value)
       // Calling voud methods: objectName.methodName();
-
       puppy.setName("James");
       puppy.setFillLevel(90);
       // setters (mutators) changes vaues. let's see the effects:
       System.out.println(puppy);
 
+      // STATIC variables & methods belong to a CLASS
+      // get CALLED using the Class name, NOT an obkect
+      BuildABear.showStore();
+      // we've used statioc methods from the Math class!!
+      double randNum = Math.random();
+      // NOTE: the main method is static bc there is
+      // ONLY ONE COPY of it per program!
+
+      
 
    } // end main() METHOD
 } // end Main CLASS
